@@ -20,6 +20,6 @@ class QuestionAdmin(admin.ModelAdmin):
     inlines = [ChoiceInline]
 
 admin.site.register(Question, QuestionAdmin)
-
+admin.site.site_header = "Polls Administration"
 
 #admin.site.register(Choice)
